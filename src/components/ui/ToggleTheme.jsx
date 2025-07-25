@@ -12,17 +12,9 @@ export function ToggleTheme() {
   return (
     <Card className="p-3 rounded-full">
       {isDark ? (
-        <Sun
-          size={24}
-          className="cursor-pointer"
-          onClick={toggleTheme}
-        ></Sun>
+        <Sun size={24} className="cursor-pointer" onClick={toggleTheme}></Sun>
       ) : (
-        <Moon
-          size={24}
-          className="cursor-pointer"
-          onClick={toggleTheme}
-        ></Moon>
+        <Moon size={24} className="cursor-pointer" onClick={toggleTheme}></Moon>
       )}
     </Card>
   );
