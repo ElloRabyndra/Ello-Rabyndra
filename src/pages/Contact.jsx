@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const Contact = () => {
   return (
     <section id="Contact">
-      <div className="container mx-auto">
+      <div className="container mx-auto min-h-screen">
         <Navbar />
         <div className="p-4 max-w-7xl mx-auto pt-24 lg:pt-28">
           <ContactHeader />
