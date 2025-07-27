@@ -9,6 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import ErrorMessage from "./ErrorMessage";
 import { toast } from "react-toastify";
 import { Button } from "../ui/button";
+import AnimatedContent from "../ui/AnimatedContent";
 const ContactContent = () => {
   const form = useRef();
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -63,55 +64,70 @@ const ContactContent = () => {
   };
 
   return (
-    <form
-      ref={form}
-      onSubmit={handleSubmit(onSubmit)}
-      className="lg:max-w-5xl mx-auto"
+    <AnimatedContent
+      distance={50}
+      direction="vertical"
+      reverse={false}
+      duration={1}
+      ease="power3.out"
+      initialOpacity={0}
+      animateOpacity
+      scale={1}
+      threshold={0}
+      delay={0.4}
     >
-      <div className="flex flex-col gap-6 p-4">
-        <div className="space-y-2">
-          <Label htmlFor="email">Email</Label>
-          <Input
-            type="email"
-            id="email"
-            placeholder="Your Email"
-            autoComplete="off"
-            {...register("email")}
-          />
-          {errors.email && <ErrorMessage ErrorMessage={errors.email.message} />}
+      <form
+        ref={form}
+        onSubmit={handleSubmit(onSubmit)}
+        className="lg:max-w-5xl mx-auto"
+      >
+        <div className="flex flex-col gap-6 p-4">
+          <div className="space-y-2">
+            <Label htmlFor="email">Email</Label>
+            <Input
+              type="email"
+              id="email"
+              placeholder="Your Email"
+              autoComplete="off"
+              {...register("email")}
+            />
+            {errors.email && (
+              <ErrorMessage ErrorMessage={errors.email.message} />
+            )}
+          </div>
+          <div className="space-y-2">
+            <Label htmlFor="from_name">Name</Label>
+            <Input
+              type="name"
+              id="from_name"
+              placeholder="Your Name"
+              autoComplete="off"
+              {...register("from_name")}
+            />
+            {errors.from_name && (
+              <ErrorMessage ErrorMessage={errors.from_name.message} />
+            )}
+          </div>
+          <div className="space-y-2">
+            <Label htmlFor="message">Message</Label>
+            <Textarea
+              id="message"
+              rows="4"
+              placeholder="Your message..."
+              autoComplete="off"
+              className="min-h-28"
+              {...register("message")}
+            ></Textarea>
+            {errors.message && (
+              <ErrorMessage ErrorMessage={errors.message.message} />
+            )}
+          </div>
+          <Button className="text-white gray-gradient border flex items-center hover:shadow-inner transition-all duration-200 rounded-xl cursor-pointer">
+            {isSubmitting ? "Sending..." : "Send Message"}
+          </Button>
         </div>
-        <div className="space-y-2">
-          <Label htmlFor="from_name">Name</Label>
-          <Input
-            type="name"
-            id="from_name"
-            placeholder="Your Name"
-            autoComplete="off"
-            {...register("from_name")}
-          />
-          {errors.from_name && (
-            <ErrorMessage ErrorMessage={errors.from_name.message} />
-          )}
-        </div>
-        <div className="space-y-2">
-          <Label htmlFor="message">Message</Label>
-          <Textarea
-            id="message"
-            rows="4"
-            placeholder="Your message..."
-            autoComplete="off"
-            className="min-h-28"
-            {...register("message")}
-          ></Textarea>
-          {errors.message && (
-            <ErrorMessage ErrorMessage={errors.message.message} />
-          )}
-        </div>
-        <Button className="text-white gray-gradient border flex items-center hover:shadow-inner transition-all duration-200 rounded-xl cursor-pointer">
-          {isSubmitting ? "Sending..." : "Send Message"}
-        </Button>
-      </div>
-    </form>
+      </form>
+    </AnimatedContent>
   );
 };
 

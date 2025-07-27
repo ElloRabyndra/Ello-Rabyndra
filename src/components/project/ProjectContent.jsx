@@ -1,3 +1,4 @@
+import AnimatedContent from "../ui/AnimatedContent";
 import ProjectCard from "./ProjectCard";
 const projects = [
   {
@@ -48,7 +49,8 @@ const projects = [
     id: 5,
     category: "Website",
     title: "Nim Validation",
-    description: "A Flask-based NIM validator for Sriwijaya University, using regular grammar to check format compliance.",
+    description:
+      "A Flask-based NIM validator for Sriwijaya University, using regular grammar to check format compliance.",
     image: "/NimValidation.png",
     tech: ["Python", "Flask", "Tailwind", "Javascript"],
     link: "",
@@ -69,11 +71,24 @@ const projects = [
 
 const ProjectContent = () => {
   return (
-    <div className="mt-5 lg:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 place-items-center">
-      {projects.map((project) => (
-        <ProjectCard key={project.id} project={project} />
-      ))}
-    </div>
+    <AnimatedContent
+      distance={50}
+      direction="vertical"
+      reverse={false}
+      duration={1}
+      ease="power3.out"
+      initialOpacity={0}
+      animateOpacity
+      scale={1}
+      threshold={0}
+      delay={0.4}
+    >
+      <div className="mt-5 lg:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 place-items-center">
+        {projects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </div>
+    </AnimatedContent>
   );
 };
 
