@@ -29,7 +29,7 @@ const HeaderHome = () => {
         animateOpacity
         scale={1}
         threshold={0.2}
-        delay={0.6}
+        delay={0.4}
       >
         <h2 className="mt-2 text-2xl sm:text-3xl font-semibold text-center lg:text-left">
           Web Developer
@@ -45,7 +45,7 @@ const HeaderHome = () => {
         animateOpacity
         scale={1}
         threshold={0.2}
-        delay={0.9}
+        delay={0.5}
       >
         <p className="mt-2 text-sm sm:text-base lg:text-lg font-thin text-center lg:text-left">
           Crafting <span className="font-bold gray-gradient">code</span> and{" "}
