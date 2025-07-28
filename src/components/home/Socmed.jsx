@@ -11,7 +11,7 @@ const Socmed = () => {
       animateOpacity
       scale={1}
       threshold={0.2}
-      delay={1.2}
+      delay={0.6}
     >
       <div className="text-center mt-4 space-y-3">
         <div className="flex items-center justify-center lg:justify-start gap-2 text-3xl lg:text-4xl">
