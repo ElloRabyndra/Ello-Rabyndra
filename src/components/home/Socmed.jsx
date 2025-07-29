@@ -2,7 +2,7 @@ import AnimatedContent from "../ui/AnimatedContent";
 const Socmed = () => {
   return (
     <AnimatedContent
-      distance={50}
+      distance={100}
       direction="vertical"
       reverse={false}
       duration={1}
@@ -11,7 +11,7 @@ const Socmed = () => {
       animateOpacity
       scale={1}
       threshold={0.2}
-      delay={0.6}
+      delay={0.7}
     >
       <div className="text-center mt-4 space-y-3">
         <div className="flex items-center justify-center lg:justify-start gap-2 text-3xl lg:text-4xl">
