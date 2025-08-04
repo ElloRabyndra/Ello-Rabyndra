@@ -4,73 +4,73 @@ import TechCard from "./TechCard";
 const techs = [
   {
     id: 1,
-    name: "HTML",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-  },
-  {
-    id: 2,
-    name: "CSS",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-  },
-  {
-    id: 3,
     name: "JavaScript",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
   },
   {
-    id: 4,
+    id: 2,
     name: "PHP",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
   },
   {
-    id: 5,
+    id: 3,
     name: "Java",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
   },
   {
-    id: 6,
+    id: 4,
     name: "Python",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
   },
   {
-    id: 7,
+    id: 5,
     name: "MySQL",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
   },
   {
-    id: 8,
+    id: 6,
     name: "Tailwind",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
   },
   {
-    id: 9,
+    id: 7,
     name: "React JS",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
   },
   {
-    id: 10,
+    id: 8,
     name: "NodeJS",
     image: "/NodeJS.png",
   },
   {
-    id: 11,
+    id: 9,
     name: "Express",
     image: "/Express.png",
   },
   {
-    id: 12,
-    name: "Git",
+    id: 10,
+    name: "Firebase",
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+  },
+  {
+    id: 11,
+    name: "Figma",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+  },
+  {
+    id: 12,
+    name: "Photoshop",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
   },
 ];
 const TechContent = () => {
