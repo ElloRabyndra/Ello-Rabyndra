@@ -1,4 +1,5 @@
 import AnimatedContent from "../ui/AnimatedContent";
+import TextType from "../ui/TextType";
 
 const HeaderHome = () => {
   return (
@@ -31,9 +32,15 @@ const HeaderHome = () => {
         threshold={0.2}
         delay={0.4}
       >
-        <h2 className="mt-2 text-2xl sm:text-3xl font-semibold text-center lg:text-left">
-          Web Developer
-        </h2>
+        <TextType
+          text={["Web Developer", "Graphic Designer", "Informatics Student"]}
+          typingSpeed={75}
+          pauseDuration={2500}
+          showCursor={true}
+          cursorCharacter="|"
+          startOnVisible={true}
+          className="mt-2 text-2xl sm:text-3xl font-thin text-center mx-auto lg:text-left"
+        />
       </AnimatedContent>
       <AnimatedContent
         distance={150}
