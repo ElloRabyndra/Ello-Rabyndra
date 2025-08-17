@@ -45,12 +45,13 @@ const AnimatedContent = ({
       scrollTrigger: {
         trigger: el,
         start: `top ${startPct}%`,
-        toggleActions: "play reverse play reverse",
+        toggleActions: "play none none reverse",
+        once: true,
       },
     });
 
     return () => {
-      ScrollTrigger.getAll().forEach((t) => t.kill());
+      ScrollTrigger.getAll().forEach(t => t.kill());
       gsap.killTweensOf(el);
     };
   }, [
