@@ -77,6 +77,17 @@ const projects = [
   {
     id: 1,
     category: "Website",
+    title: "Redesign Fasilkom Unsri",
+    description:
+      "A project to redesign the official website for the Faculty of Computer Science at Sriwijaya University.",
+    image: "/fasilkom.png",
+    tech: ["React", "Tailwind", "Go", "Fiber", "MySQL"],
+    link: "https://fasilkom-universitas-sriwijaya.vercel.app/",
+    github: "https://github.com/ElloRabyndra/Fasilkom-Universitas-Sriwijaya",
+  },
+  {
+    id: 2,
+    category: "Website",
     title: "Thriftoria",
     description:
       "A minimalist thrift store app with auth, category-based browsing, and cart system powered by a REST API.",
@@ -86,7 +97,18 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Thriftoria",
   },
   {
-    id: 2,
+    id: 3,
+    category: "Website",
+    title: "Tastico",
+    description:
+      "A modern, responsive restaurant website with an elegant user interface for browsing menus, placing orders, and managing user accounts.",
+    image: "/tastico.png",
+    tech: ["React", "Tailwind", "Go", "MySQL"],
+    link: "https://tastico.vercel.app/",
+    github: "https://github.com/ElloRabyndra/tastico",
+  },
+  {
+    id: 4,
     category: "Website",
     title: "Marketplace Management",
     description:
@@ -97,7 +119,29 @@ const projects = [
     github: "https://github.com/ElloRabyndra/MarketPlaceManagement",
   },
   {
-    id: 3,
+    id: 5,
+    category: "Website",
+    title: "MyNotes",
+    description:
+      "A responsive note-taking app with authentication, CRUD features, and pinning, built using Node.js and Tailwind CSS.",
+    image: "/MyNotes.png",
+    tech: ["Tailwind","NodeJS", "Express", "EJS", "MySQL"],
+    link: "https://ellorabyndra.github.io/MyNotes/",
+    github: "https://github.com/ElloRabyndra/MyNotes-old",
+  },
+  {
+    id: 6,
+    category: "Website",
+    title: "Nim Validation",
+    description:
+      "A Flask-based NIM validator for Sriwijaya University, using regular grammar to check format compliance.",
+    image: "/NimValidation.png",
+    tech: ["Python", "Flask", "Tailwind", "Javascript"],
+    link: "https://nim-validation.vercel.app/",
+    github: "https://github.com/ElloRabyndra/Nim_Validation",
+  },
+  {
+    id: 7,
     category: "Website",
     title: "BukuKu",
     description:
@@ -108,30 +152,8 @@ const projects = [
     github: "https://github.com/ElloRabyndra/BukuKu",
   },
   {
-    id: 4,
-    category: "Website",
-    title: "MyNotes",
-    description:
-      "A responsive note-taking app with authentication, CRUD features, and pinning, built using Node.js and Tailwind CSS.",
-    image: "/MyNotes.png",
-    tech: ["NodeJS", "Express", "EJS", "MySQL"],
-    link: "",
-    github: "https://github.com/ElloRabyndra/MyNotes-old",
-  },
-  {
-    id: 5,
-    category: "Website",
-    title: "Nim Validation",
-    description:
-      "A Flask-based NIM validator for Sriwijaya University, using regular grammar to check format compliance.",
-    image: "/NimValidation.png",
-    tech: ["Python", "Flask", "Tailwind", "Javascript"],
-    link: "",
-    github: "https://github.com/ElloRabyndra/Nim_Validation",
-  },
-  {
-    id: 6,
-    category: "Website",
+    id: 8,
+    category: "IoT",
     title: "Warehouse Monitoring",
     description:
       "An ESP32-powered IoT system for real-time warehouse monitoring with automation and Telegram alerts for safety compliance.",
@@ -139,6 +161,17 @@ const projects = [
     tech: ["C++", "Wokwi"],
     link: "",
     github: "https://github.com/ElloRabyndra/Warehouse-Monitoring",
+  },
+  {
+    id: 9,
+    category: "Website",
+    title: "Old Portfolio",
+    description:
+      "My old, responsive portfolio website, that highlights my skills, experiences, and projects, and also includes a dark mode.",
+    image: "/old-porto.png",
+    tech: ["Tailwind", "Javascript"],
+    link: "https://ellorabyndra.github.io/Portofolio-V2/",
+    github: "https://github.com/ElloRabyndra/Portofolio-V2",
   },
 ];
 
@@ -174,4 +207,3 @@ const Experiences = [
 ];
 
 export { techs, projects, Experiences };
-
