@@ -120,17 +120,28 @@ const projects = [
   },
   {
     id: 5,
+    category: "Website, IoT",
+    title: "Warehouse Dashboard",
+    description:
+      "An interactive and real-time web dashboard for monitoring warehouse temperature and humidity.",
+    image: "/warehouse-dashboard.png",
+    tech: ["React", "Tailwind", "C++", "Wokwi"],
+    link: "https://warehouse-dashboard-self.vercel.app/",
+    github: "https://github.com/ElloRabyndra/Warehouse-Dashboard",
+  },
+  {
+    id: 6,
     category: "Website",
     title: "MyNotes",
     description:
       "A responsive note-taking app with authentication, CRUD features, and pinning, built using Node.js and Tailwind CSS.",
     image: "/MyNotes.png",
-    tech: ["Tailwind","NodeJS", "Express", "EJS", "MySQL"],
+    tech: ["Tailwind", "NodeJS", "Express", "EJS", "MySQL"],
     link: "https://ellorabyndra.github.io/MyNotes/",
     github: "https://github.com/ElloRabyndra/MyNotes-old",
   },
   {
-    id: 6,
+    id: 7,
     category: "Website",
     title: "Nim Validation",
     description:
@@ -141,26 +152,15 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Nim_Validation",
   },
   {
-    id: 7,
-    category: "Website",
-    title: "BukuKu",
-    description:
-      "A collaborative book management app with auth, categories, and full CRUD, built using Node.js and MySQL.",
-    image: "/BukuKu.png",
-    tech: ["NodeJS", "Express", "EJS", "MySQL"],
-    link: "https://ellorabyndra.github.io/BukuKu-FrontEnd/",
-    github: "https://github.com/ElloRabyndra/BukuKu",
-  },
-  {
     id: 8,
-    category: "IoT",
-    title: "Warehouse Monitoring",
+    category: "Website",
+    title: "MyOshi",
     description:
-      "An ESP32-powered IoT system for real-time warehouse monitoring with automation and Telegram alerts for safety compliance.",
-    image: "/Warehouse.png",
-    tech: ["C++", "Wokwi"],
-    link: "",
-    github: "https://github.com/ElloRabyndra/Warehouse-Monitoring",
+      "An interactive JKT48 member gallery with pagination and gacha system to discover your favorite member.",
+    image: "/MyOshi.png",
+    tech: ["React", "Tailwind"],
+    link: "https://myoshi.vercel.app/",
+    github: "https://github.com/ElloRabyndra/MyOshi",
   },
   {
     id: 9,
