@@ -77,6 +77,17 @@ const projects = [
   {
     id: 1,
     category: "Website",
+    title: "EcoSphere",
+    description:
+      "An interactive educational website utilizing gamification to encourage children take simple, consistent environmental actions.",
+    image: "/ecosphere.png",
+    tech: ["React", "ShadCn", "NodeJS", "MySQL"],
+    link: "https://echosphere-cyan.vercel.app/",
+    github: "https://github.com/ElloRabyndra/EcoSphere",
+  },
+  {
+    id: 2,
+    category: "Website",
     title: "Redesign Fasilkom Unsri",
     description:
       "A project to redesign the official website for the Faculty of Computer Science at Sriwijaya University.",
@@ -86,7 +97,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Fasilkom-Universitas-Sriwijaya",
   },
   {
-    id: 2,
+    id: 3,
     category: "Website",
     title: "Thriftoria",
     description:
@@ -97,7 +108,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Thriftoria",
   },
   {
-    id: 3,
+    id: 4,
     category: "Website",
     title: "Tastico",
     description:
@@ -108,7 +119,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/tastico",
   },
   {
-    id: 4,
+    id: 5,
     category: "Website",
     title: "Marketplace Management",
     description:
@@ -119,7 +130,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/MarketPlaceManagement",
   },
   {
-    id: 5,
+    id: 6,
     category: "Website, IoT",
     title: "Warehouse Dashboard",
     description:
@@ -130,7 +141,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Warehouse-Dashboard",
   },
   {
-    id: 6,
+    id: 7,
     category: "Website",
     title: "MyNotes",
     description:
@@ -141,7 +152,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/MyNotes-old",
   },
   {
-    id: 7,
+    id: 8,
     category: "Website",
     title: "Nim Validation",
     description:
@@ -152,7 +163,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Nim_Validation",
   },
   {
-    id: 8,
+    id: 9,
     category: "Website",
     title: "MyOshi",
     description:
@@ -161,17 +172,6 @@ const projects = [
     tech: ["React", "Tailwind"],
     link: "https://myoshi.vercel.app/",
     github: "https://github.com/ElloRabyndra/MyOshi",
-  },
-  {
-    id: 9,
-    category: "Website",
-    title: "Old Portfolio",
-    description:
-      "My old, responsive portfolio website, that highlights my skills, experiences, and projects, and also includes a dark mode.",
-    image: "/old-porto.png",
-    tech: ["Tailwind", "Javascript"],
-    link: "https://ellorabyndra.github.io/Portofolio-V2/",
-    github: "https://github.com/ElloRabyndra/Portofolio-V2",
   },
 ];
 
