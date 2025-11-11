@@ -101,11 +101,11 @@ const projects = [
     category: "Website",
     title: "Thriftoria",
     description:
-      "A minimalist thrift store app with auth, category-based browsing, and cart system powered by a REST API.",
+      "Full-stack thrift marketplace with multi-role system, shop approval workflow, real-time cart & order tracking, powered by React and Go Fiber REST API.",
     image: "/Thriftoria.png",
-    tech: ["React", "Tailwind", "ShadCn"],
-    link: "https://thriftoria.vercel.app/",
-    github: "https://github.com/ElloRabyndra/Thriftoria",
+    tech: ["React", "ShadCn", "Go", "Fiber", "MySQL"],
+    link: "https://thriftoria-team-green-v2.vercel.app/",
+    github: "https://github.com/ElloRabyndra/Team_Green_Thriftoria",
   },
   {
     id: 4,
