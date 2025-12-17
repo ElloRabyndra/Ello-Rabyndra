@@ -77,6 +77,17 @@ const projects = [
   {
     id: 1,
     category: "Website",
+    title: "GDGOC Unsri Management System",
+    description:
+      "A management system for GDGOC Unsri for member management, event tracking with committee roles, and a leaderboard system.",
+    image: "/gdgoc.png",
+    tech: ["Next.js", "ShadCn", "Firebase", "React Query"],
+    link: "https://gdgoc-unsri-management-system.vercel.app/",
+    github: "https://github.com/ElloRabyndra/gdgoc-unsri-management-system",
+  },
+  {
+    id: 2,
+    category: "Website",
     title: "EcoSphere",
     description:
       "An interactive educational website utilizing gamification to encourage children take simple, consistent environmental actions.",
@@ -86,7 +97,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/EcoSphere",
   },
   {
-    id: 2,
+    id: 3,
     category: "Website",
     title: "Redesign Fasilkom Unsri",
     description:
@@ -97,7 +108,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Fasilkom-Universitas-Sriwijaya",
   },
   {
-    id: 3,
+    id: 4,
     category: "Website",
     title: "Thriftoria",
     description:
@@ -108,7 +119,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Team_Green_Thriftoria",
   },
   {
-    id: 4,
+    id: 5,
     category: "Website",
     title: "Tastico",
     description:
@@ -119,7 +130,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/tastico",
   },
   {
-    id: 5,
+    id: 6,
     category: "Website",
     title: "Marketplace Management",
     description:
@@ -130,7 +141,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/MarketPlaceManagement",
   },
   {
-    id: 6,
+    id: 7,
     category: "Website, IoT",
     title: "Warehouse Dashboard",
     description:
@@ -141,7 +152,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Warehouse-Dashboard",
   },
   {
-    id: 7,
+    id: 8,
     category: "Website",
     title: "MyNotes",
     description:
@@ -152,7 +163,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/MyNotes-old",
   },
   {
-    id: 8,
+    id: 9,
     category: "Website",
     title: "Nim Validation",
     description:
@@ -163,7 +174,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Nim_Validation",
   },
   {
-    id: 9,
+    id: 10,
     category: "Website",
     title: "MyOshi",
     description:
