@@ -2,9 +2,9 @@
 const techs = [
   {
     id: 1,
-    name: "JavaScript",
+    name: "TypeScript",
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
   },
   {
     id: 2,
@@ -38,28 +38,39 @@ const techs = [
   },
   {
     id: 7,
-    name: "React JS",
+    name: "Next.js",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+  },
+  {
+    id: 8,
+    name: "React.js",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
   },
   {
-    id: 8,
+    id: 9,
     name: "NodeJS",
     image: "/NodeJS.png",
   },
   {
-    id: 9,
+    id: 10,
     name: "Express",
     image: "/Express.png",
   },
   {
-    id: 10,
+    id: 11,
+    name: "Supabase",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
+  },
+  {
+    id: 12,
     name: "Firebase",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
   },
   {
-    id: 11,
+    id: 13,
     name: "Figma",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
@@ -77,6 +88,17 @@ const projects = [
   {
     id: 1,
     category: "Website",
+    title: "Bank Sumsel Babel Digital Catalog",
+    description:
+      "A digital catalog web portal with CMS for banking products. Features admin panel, rich text editor, and authentication.",
+    image: "/katalog-bsb.png",
+    tech: ["Next.js", "Supabase", "Tailwind CSS"],
+    link: "https://bank-sumsel-babel-catalog.vercel.app/",
+    github: "https://github.com/ElloRabyndra/Bank-Sumsel-Babel-Catalog",
+  },
+  {
+    id: 12,
+    category: "Website",
     title: "GDGOC Unsri Management System",
     description:
       "A management system for GDGOC Unsri for member management, event tracking with committee roles, and a leaderboard system.",
@@ -86,7 +108,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/gdgoc-unsri-management-system",
   },
   {
-    id: 2,
+    id: 3,
     category: "Website",
     title: "EcoSphere",
     description:
@@ -97,7 +119,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/EcoSphere",
   },
   {
-    id: 3,
+    id: 4,
     category: "Website",
     title: "Redesign Fasilkom Unsri",
     description:
@@ -108,7 +130,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Fasilkom-Universitas-Sriwijaya",
   },
   {
-    id: 4,
+    id: 5,
     category: "Website",
     title: "Thriftoria",
     description:
@@ -119,7 +141,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Team_Green_Thriftoria",
   },
   {
-    id: 5,
+    id: 6,
     category: "Website",
     title: "Tastico",
     description:
@@ -130,7 +152,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/tastico",
   },
   {
-    id: 6,
+    id: 7,
     category: "Website",
     title: "Marketplace Management",
     description:
@@ -141,7 +163,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/MarketPlaceManagement",
   },
   {
-    id: 7,
+    id: 8,
     category: "Website, IoT",
     title: "Warehouse Dashboard",
     description:
@@ -152,7 +174,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Warehouse-Dashboard",
   },
   {
-    id: 8,
+    id: 9,
     category: "Website",
     title: "MyNotes",
     description:
@@ -162,43 +184,61 @@ const projects = [
     link: "https://ellorabyndra.github.io/MyNotes/",
     github: "https://github.com/ElloRabyndra/MyNotes-old",
   },
-  {
-    id: 9,
-    category: "Website",
-    title: "Nim Validation",
-    description:
-      "A Flask-based NIM validator for Sriwijaya University, using regular grammar to check format compliance.",
-    image: "/NimValidation.png",
-    tech: ["Python", "Flask", "Tailwind", "Javascript"],
-    link: "https://nim-validation.vercel.app/",
-    github: "https://github.com/ElloRabyndra/Nim_Validation",
-  },
-  {
-    id: 10,
-    category: "Website",
-    title: "MyOshi",
-    description:
-      "An interactive JKT48 member gallery with pagination and gacha system to discover your favorite member.",
-    image: "/MyOshi.png",
-    tech: ["React", "Tailwind"],
-    link: "https://myoshi.vercel.app/",
-    github: "https://github.com/ElloRabyndra/MyOshi",
-  },
+  // {
+  //   id: 10,
+  //   category: "Website",
+  //   title: "Nim Validation",
+  //   description:
+  //     "A Flask-based NIM validator for Sriwijaya University, using regular grammar to check format compliance.",
+  //   image: "/NimValidation.png",
+  //   tech: ["Python", "Flask", "Tailwind", "Javascript"],
+  //   link: "https://nim-validation.vercel.app/",
+  //   github: "https://github.com/ElloRabyndra/Nim_Validation",
+  // },
+  // {
+  //   id: 111,
+  //   category: "Website",
+  //   title: "MyOshi",
+  //   description:
+  //     "An interactive JKT48 member gallery with pagination and gacha system to discover your favorite member.",
+  //   image: "/MyOshi.png",
+  //   tech: ["React", "Tailwind"],
+  //   link: "https://myoshi.vercel.app/",
+  //   github: "https://github.com/ElloRabyndra/MyOshi",
+  // },
 ];
 
 // Experiences
 const Experiences = [
   {
     id: 1,
-    company: "Google Developer Student Club Unsri",
-    position: "Member of Graphic Design Division",
-    year: "Nov 2023 - Aug 2024",
+    company: "Google Developer Group on Campus Unsri",
+    position: "Core Team of Front End Development",
+    year: "Jan 2026 - Present",
     description:
-      "Created visual content and event assets using Figma and Photoshop, supporting GDSC Unsri's branding across social media. Took creative leadership in design projects and handled camerawork for events.",
-    tech: ["Figma", "Photoshop"],
+      "Led frontend development learning initiatives at GDGoC UNSRI, teaching modern web technologies including React, Tailwind CSS, and Firebase. Designed the curriculum, facilitated hands-on sessions, and mentored members through real-world projects and code reviews.",
+    tech: ["Javascript", "React", "Tailwind", "Firebase"],
   },
   {
     id: 2,
+    company: "Bank Sumsel Babel Palembang",
+    position: "Information Technology and Information Systems Intern",
+    year: "Dec 2025 - Jan 2026",
+    description:
+      "Built a digital catalog web portal with an integrated CMS using Next.js and Supabase (PostgreSQL). Developed the database schema, admin panel with authentication and rich text editing, and deployed on Vercel, enabling non-technical staff to manage content independently and eliminating update bottlenecks.",
+    tech: ["Next.js", "TypeScript", "Supabase", "PostgreSQL"],
+  },
+  {
+    id: 3,
+    company: "Google Developer Group on Campus Unsri",
+    position: "Member of Front End Development",
+    year: "Jan 2025 - Nov 2025",
+    description:
+      "Strengthened front-end development skills with React.js and Tailwind CSS through collaborative projects and curriculum design. Co-led training sessions and resource creation, supporting 30+ learners in a hands-on web development program.",
+    tech: ["Javascript", "React", "Tailwind", "Figma"],
+  },
+  {
+    id: 4,
     company: "Himpunan Mahasiswa Informatika Unsri",
     position: "Staff of Information Technology Development",
     year: "Feb 2024 - Dec 2024",
@@ -207,13 +247,13 @@ const Experiences = [
     tech: ["Javascript", "Tailwind", "Java"],
   },
   {
-    id: 3,
-    company: "Google Developer Group on Campus Unsri",
-    position: "Member of Front End Development",
-    year: "Jan 2025 - Present",
+    id: 5,
+    company: "Google Developer Student Club Unsri",
+    position: "Member of Graphic Design Division",
+    year: "Nov 2023 - Aug 2024",
     description:
-      "Strengthened front-end development skills with React.js and Tailwind CSS through collaborative projects and curriculum design. Co-led training sessions and resource creation, supporting 30+ learners in a hands-on web development program.",
-    tech: ["Javascript", "React", "Tailwind", "Figma"],
+      "Created visual content and event assets using Figma and Photoshop, supporting GDSC Unsri's branding across social media. Took creative leadership in design projects and handled camerawork for events.",
+    tech: ["Figma", "Photoshop"],
   },
 ];
 
