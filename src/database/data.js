@@ -61,7 +61,8 @@ const techs = [
   {
     id: 11,
     name: "Supabase",
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
   },
   {
     id: 12,
@@ -88,6 +89,17 @@ const projects = [
   {
     id: 1,
     category: "Website",
+    title: "DasarNgoding",
+    description:
+      "An educational programming platform for beginners focusing on fundamentals and project-based learning.",
+    image: "/dasarngodingid.png",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
+    link: "https://dasarngodingid.vercel.app/",
+    github: "https://github.com/ElloRabyndra/DasarNgoding",
+  },
+  {
+    id: 2,
+    category: "Website",
     title: "Bank Sumsel Babel Digital Catalog",
     description:
       "A digital catalog web portal with CMS for banking products. Features admin panel, rich text editor, and authentication.",
@@ -97,7 +109,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Bank-Sumsel-Babel-Catalog",
   },
   {
-    id: 12,
+    id: 3,
     category: "Website",
     title: "GDGOC Unsri Management System",
     description:
@@ -108,7 +120,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/gdgoc-unsri-management-system",
   },
   {
-    id: 3,
+    id: 4,
     category: "Website",
     title: "EcoSphere",
     description:
@@ -119,7 +131,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/EcoSphere",
   },
   {
-    id: 4,
+    id: 5,
     category: "Website",
     title: "Redesign Fasilkom Unsri",
     description:
@@ -130,7 +142,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Fasilkom-Universitas-Sriwijaya",
   },
   {
-    id: 5,
+    id: 6,
     category: "Website",
     title: "Thriftoria",
     description:
@@ -141,7 +153,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Team_Green_Thriftoria",
   },
   {
-    id: 6,
+    id: 7,
     category: "Website",
     title: "Tastico",
     description:
@@ -152,7 +164,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/tastico",
   },
   {
-    id: 7,
+    id: 8,
     category: "Website",
     title: "Marketplace Management",
     description:
@@ -163,7 +175,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/MarketPlaceManagement",
   },
   {
-    id: 8,
+    id: 9,
     category: "Website, IoT",
     title: "Warehouse Dashboard",
     description:
@@ -173,17 +185,28 @@ const projects = [
     link: "https://warehouse-dashboard-self.vercel.app/",
     github: "https://github.com/ElloRabyndra/Warehouse-Dashboard",
   },
-  {
-    id: 9,
-    category: "Website",
-    title: "MyNotes",
-    description:
-      "A responsive note-taking app with authentication, CRUD features, and pinning, built using Node.js and Tailwind CSS.",
-    image: "/MyNotes.png",
-    tech: ["Tailwind", "NodeJS", "Express", "EJS", "MySQL"],
-    link: "https://ellorabyndra.github.io/MyNotes/",
-    github: "https://github.com/ElloRabyndra/MyNotes-old",
-  },
+  // {
+  //   id: 10,
+  //   category: "Website",
+  //   title: "MyNotes",
+  //   description:
+  //     "A responsive note-taking app with authentication, CRUD features, and pinning, built using Node.js and Tailwind CSS.",
+  //   image: "/MyNotes.png",
+  //   tech: ["Tailwind", "NodeJS", "Express", "EJS", "MySQL"],
+  //   link: "https://ellorabyndra.github.io/MyNotes/",
+  //   github: "https://github.com/ElloRabyndra/MyNotes-old",
+  // },
+  // {
+  //   id: 11,
+  //   category: "Website",
+  //   title: "MyOshi",
+  //   description:
+  //     "An interactive JKT48 member gallery with pagination and gacha system to discover your favorite member.",
+  //   image: "/MyOshi.png",
+  //   tech: ["React", "Tailwind"],
+  //   link: "https://myoshi.vercel.app/",
+  //   github: "https://github.com/ElloRabyndra/MyOshi",
+  // },
   // {
   //   id: 10,
   //   category: "Website",
@@ -194,17 +217,6 @@ const projects = [
   //   tech: ["Python", "Flask", "Tailwind", "Javascript"],
   //   link: "https://nim-validation.vercel.app/",
   //   github: "https://github.com/ElloRabyndra/Nim_Validation",
-  // },
-  // {
-  //   id: 111,
-  //   category: "Website",
-  //   title: "MyOshi",
-  //   description:
-  //     "An interactive JKT48 member gallery with pagination and gacha system to discover your favorite member.",
-  //   image: "/MyOshi.png",
-  //   tech: ["React", "Tailwind"],
-  //   link: "https://myoshi.vercel.app/",
-  //   github: "https://github.com/ElloRabyndra/MyOshi",
   // },
 ];
 
