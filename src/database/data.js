@@ -102,7 +102,7 @@ const projects = [
     category: "Website",
     title: "Bank Sumsel Babel Digital Catalog",
     description:
-      "A digital catalog web portal with CMS for banking products. Features admin panel, rich text editor, and authentication.",
+      "A digital catalog web portal for banking products. Features admin panel, text editor, and authentication.",
     image: "/katalog-bsb.png",
     tech: ["Next.js", "Supabase", "Tailwind CSS"],
     link: "https://bank-sumsel-babel-catalog.vercel.app/",
@@ -111,7 +111,7 @@ const projects = [
   {
     id: 3,
     category: "Website",
-    title: "GDGOC Unsri Management System",
+    title: "GDGoC Unsri Management System",
     description:
       "A management system for GDGOC Unsri for member management, event tracking with committee roles, and a leaderboard system.",
     image: "/gdgoc.png",
@@ -133,6 +133,17 @@ const projects = [
   {
     id: 5,
     category: "Website",
+    title: "Thriftoria",
+    description:
+      "Full-stack thrift marketplace with multi-role system, shop approval workflow, real-time cart & order tracking",
+    image: "/Thriftoria.png",
+    tech: ["React", "ShadCn", "Go", "Fiber", "MySQL"],
+    link: "https://thriftoria-team-green-v2.vercel.app/",
+    github: "https://github.com/ElloRabyndra/Team_Green_Thriftoria",
+  },
+  {
+    id: 6,
+    category: "Website",
     title: "Redesign Fasilkom Unsri",
     description:
       "A project to redesign the official website for the Faculty of Computer Science at Sriwijaya University.",
@@ -140,17 +151,6 @@ const projects = [
     tech: ["React", "Tailwind", "Go", "Fiber", "MySQL"],
     link: "https://fasilkom-universitas-sriwijaya.vercel.app/",
     github: "https://github.com/ElloRabyndra/Fasilkom-Universitas-Sriwijaya",
-  },
-  {
-    id: 6,
-    category: "Website",
-    title: "Thriftoria",
-    description:
-      "Full-stack thrift marketplace with multi-role system, shop approval workflow, real-time cart & order tracking, powered by React and Go Fiber REST API.",
-    image: "/Thriftoria.png",
-    tech: ["React", "ShadCn", "Go", "Fiber", "MySQL"],
-    link: "https://thriftoria-team-green-v2.vercel.app/",
-    github: "https://github.com/ElloRabyndra/Team_Green_Thriftoria",
   },
   {
     id: 7,
@@ -165,17 +165,6 @@ const projects = [
   },
   {
     id: 8,
-    category: "Website",
-    title: "Marketplace Management",
-    description:
-      "A PHP-MySQL marketplace system with auth, role-based access, product CRUD, image upload, and responsive light/dark mode UI.",
-    image: "/MarketPlace.png",
-    tech: ["PHP", "Jquery", "Tailwind", "MySQL"],
-    link: "",
-    github: "https://github.com/ElloRabyndra/MarketPlaceManagement",
-  },
-  {
-    id: 9,
     category: "Website, IoT",
     title: "Warehouse Dashboard",
     description:
@@ -184,6 +173,17 @@ const projects = [
     tech: ["React", "Tailwind", "C++", "Wokwi"],
     link: "https://warehouse-dashboard-self.vercel.app/",
     github: "https://github.com/ElloRabyndra/Warehouse-Dashboard",
+  },
+  {
+    id: 9,
+    category: "Website",
+    title: "Marketplace Management",
+    description:
+      "A PHP-MySQL marketplace system with auth, role-based access, product CRUD, image upload, and responsive light/dark mode UI.",
+    image: "/MarketPlace.png",
+    tech: ["PHP", "Jquery", "Tailwind", "MySQL"],
+    link: "",
+    github: "https://github.com/ElloRabyndra/MarketPlaceManagement",
   },
   // {
   //   id: 10,
