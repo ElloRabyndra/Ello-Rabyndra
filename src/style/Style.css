@@ -1,15 +1,5 @@
 /*
  * Global Stylesheet for the React Starter Template
- *
- * This file primarily contains base styles, custom properties for theming,
- * and Tailwind CSS imports.
- *
- * The theme variables provided here are largely based on Shadcn UI's theming system,
- * allowing for easy customization of colors, borders, and other design tokens.
- *
- * You can customize these theme variables to match your project's branding.
- * For an easier way to generate and customize your Shadcn UI theme,
- * consider using web tools like https://tweakcn.com/ or https://shadcnstudio.com/theme-generator.
  */
 
 @import "tailwindcss";
@@ -100,33 +90,22 @@ html {
   --toastify-toast-left: max(var(--toastify-toast-offset), env(safe-area-inset-left));
   --toastify-toast-bottom: max(var(--toastify-toast-offset), env(safe-area-inset-bottom));
   
-  /* Background menggunakan card dengan shadow-inner effect */
   --toastify-toast-background: var(--card);
   --toastify-toast-padding: 16px;
   --toastify-toast-min-height: 72px;
   --toastify-toast-max-height: 800px;
   --toastify-toast-bd-radius: var(--radius-xl);
-  
-  /* Shadow sesuai dengan theme */
   --toastify-toast-shadow: var(--shadow-lg);
-  
   --toastify-font-family: var(--font-sans);
   --toastify-z-index: 9999;
-  
-  /* Text colors menggunakan foreground colors */
   --toastify-text-color-light: oklch(1 0 0);
   --toastify-text-color-dark: oklch(1 0 0);
-  
-  /* Colored theme text colors */
   --toastify-text-color-info: oklch(1 0 0);
   --toastify-text-color-success: oklch(1 0 0);
   --toastify-text-color-warning: oklch(1 0 0);
   --toastify-text-color-error: oklch(1 0 0);
-  
   --toastify-spinner-color: var(--muted-foreground);
   --toastify-spinner-color-empty-area: var(--muted);
-  
-  /* Progress colors */
   --toastify-color-progress-light: var(--primary);
   --toastify-color-progress-dark: var(--primary);
   --toastify-color-progress-info: var(--toastify-color-info);
@@ -258,6 +237,7 @@ html {
   }
 }
 
+/* ─── Custom Utilities ─── */
 
 .shadow-inner {
   box-shadow: inset 4px 4px 20px #151515, inset -4px -4px 20px #2b2b2b;
@@ -280,5 +260,149 @@ html {
   color: transparent;
 }
 
+/* ─── Dot Grid Background ─── */
+.dot-grid-bg {
+  background-image: radial-gradient(circle, oklch(0.35 0 0) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
 
+/* ─── Improved card hover glow ─── */
+.card-glow:hover {
+  box-shadow: inset 4px 4px 20px #151515, inset -4px -4px 20px #2b2b2b,
+    0 0 0 1px oklch(0.45 0 0 / 0.4);
+  transition: all 0.3s ease-in-out;
+}
 
+/* ─── Project card image overlay ─── */
+.project-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-img-wrapper img {
+  transition: transform 0.4s ease-in-out;
+}
+
+.project-img-wrapper:hover img {
+  transform: scale(1.04);
+}
+
+.project-img-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, oklch(0.2178 0 0 / 0.6) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-img-wrapper:hover::after {
+  opacity: 1;
+}
+
+/* ─── Timeline dot pulse animation ─── */
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 oklch(0.7058 0 0 / 0.4); }
+  70% { box-shadow: 0 0 0 6px oklch(0.7058 0 0 / 0); }
+  100% { box-shadow: 0 0 0 0 oklch(0.7058 0 0 / 0); }
+}
+
+.timeline-dot {
+  animation: pulse-ring 2.5s ease-out infinite;
+}
+
+/* ─── Subtle scanline texture on bg ─── */
+.section-bg::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    oklch(0 0 0 / 0.015) 2px,
+    oklch(0 0 0 / 0.015) 4px
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ─── Navbar active indicator improvement ─── */
+.nav-active-glow {
+  text-shadow: 0 0 20px oklch(0.7058 0 0 / 0.5);
+}
+
+/* ─── Scroll fade-in for page sections ─── */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ─── Gradient border for highlighted elements ─── */
+.gradient-border {
+  position: relative;
+  border-radius: calc(var(--radius) + 2px);
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, oklch(0.5 0 0), oklch(0.3 0 0), oklch(0.5 0 0));
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gradient-border:hover::before {
+  opacity: 1;
+}
+
+/* ─── Tech card shimmer on hover ─── */
+.tech-card-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.tech-card-wrap::after {
+  content: '';
+  position: absolute;
+  inset: -50%;
+  background: conic-gradient(from 0deg, transparent 0deg, oklch(0.7 0 0 / 0.06) 60deg, transparent 120deg);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  animation: spin-shimmer 4s linear infinite;
+}
+
+@keyframes spin-shimmer {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.tech-card-wrap:hover::after {
+  opacity: 1;
+}
+
+/* ─── Footer social icon hover ─── */
+.social-icon {
+  position: relative;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px);
+}
+
+/* ─── Section divider line ─── */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, oklch(0.4 0 0 / 0.5), transparent);
+  margin: 2rem 0;
+}
