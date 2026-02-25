@@ -21,15 +21,25 @@ const About = () => {
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
 
         <CardHeader className="px-4 font-bold text-base mb-1 flex flex-row items-center gap-2">
-          <span className="w-1.5 h-5 rounded-full gray-gradient inline-block shrink-0" style={{ background: 'linear-gradient(to bottom, var(--muted-foreground), var(--foreground))', WebkitBackgroundClip: 'unset', WebkitTextFillColor: 'unset', backgroundClip: 'unset', color: 'unset' }} />
+          <span
+            className="w-1.5 h-5 rounded-full gray-gradient inline-block shrink-0"
+            style={{
+              background:
+                "linear-gradient(to bottom, var(--muted-foreground), var(--foreground))",
+              WebkitBackgroundClip: "unset",
+              WebkitTextFillColor: "unset",
+              backgroundClip: "unset",
+              color: "unset",
+            }}
+          />
           <span>About Me</span>
         </CardHeader>
 
         <CardContent className="px-4 text-sm leading-relaxed text-muted-foreground">
           I&apos;m an Informatics Engineering student with a strong passion for
           programming and graphic design. I have experience in JavaScript
-          programming languages and am currently focusing on web development.
-          I bring strong teamwork, communication, adaptability, and leadership
+          programming languages and am currently focusing on web development. I
+          bring strong teamwork, communication, adaptability, and leadership
           skills.
         </CardContent>
 
@@ -38,12 +48,15 @@ const About = () => {
             href="mailto:ellorabyndra123@gmail.com"
             className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200 group/mail"
           >
-            <Mail size={16} className="group-hover/mail:scale-110 transition-transform duration-200" />
+            <Mail
+              size={16}
+              className="group-hover/mail:scale-110 transition-transform duration-200"
+            />
             <span className="truncate">ellorabyndra123@gmail.com</span>
           </a>
           <a
-            href="/ElloCV.pdf"
-            download="ElloRabyndra CV"
+            href="/CV_Ello_Rabyndra.pdf"
+            download="CV_Ello_Rabyndra"
             className="flex items-center gap-1.5 text-xs border rounded-lg px-3 py-1.5 shadow-inner text-muted-foreground hover:text-foreground hover:border-primary/40 transition-all duration-200"
           >
             <Download size={13} />

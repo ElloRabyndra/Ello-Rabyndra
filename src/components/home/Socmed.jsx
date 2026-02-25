@@ -31,8 +31,8 @@ const Socmed = () => {
             className="bx bxl-instagram-alt block border rounded-full p-2 hover:text-primary transition-colors duration-200 shadow-inner"
           ></a>
           <a
-            href="/ElloCV.pdf"
-            download="ElloRabyndra CV"
+            href="/CV_Ello_Rabyndra.pdf"
+            download="CV_Ello_Rabyndra"
             className="bx bx-file block border rounded-full p-2 hover:text-primary transition-colors duration-200 shadow-inner"
           ></a>
         </div>
