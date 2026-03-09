@@ -93,7 +93,7 @@ const projects = [
     description:
       "An educational programming platform for beginners focusing on fundamentals and project-based learning.",
     image: "/dasarngodingid.png",
-    tech: ["React", "TypeScript", "Tailwind CSS"],
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     link: "https://dasarngodingid.vercel.app/",
     github: "https://github.com/ElloRabyndra/DasarNgoding",
   },
@@ -133,7 +133,7 @@ const projects = [
   {
     id: 5,
     category: "Website",
-    title: "Thriftoria",
+    title: "Thriftoria Mart",
     description:
       "Full-stack thrift marketplace with multi-role system, shop approval workflow, real-time cart & order tracking",
     image: "/Thriftoria.png",
@@ -144,7 +144,7 @@ const projects = [
   {
     id: 6,
     category: "Website",
-    title: "Redesign Fasilkom Unsri",
+    title: "Fasilkom Unsri",
     description:
       "A project to redesign the official website for the Faculty of Computer Science at Sriwijaya University.",
     image: "/fasilkom.png",
