@@ -1,3 +1,16 @@
+import dasarngodingid from "../assets/dasarngodingid.png";
+import katalogBsb from "../assets/katalogBsb.png";
+import gdgoc from "../assets/gdgoc.png";
+import ecosphere from "../assets/ecosphere.png";
+import Thriftoria from "../assets/Thriftoria.png";
+import fasilkom from "../assets/fasilkom.png";
+import tastico from "../assets/tastico.png";
+import warehouseDashboard from "../assets/warehouseDashboard.png";
+import MarketPlace from "../assets/MarketPlace.png";
+import MyNotes from "../assets/MyNotes.png";
+import MyOshi from "../assets/MyOshi.png";
+import NimValidation from "../assets/NimValidation.png";
+
 // Tech Stack
 const techs = [
   {
@@ -92,7 +105,7 @@ const projects = [
     title: "DasarNgoding",
     description:
       "An educational programming platform for beginners focusing on fundamentals and project-based learning.",
-    image: "/dasarngodingid.png",
+    image: dasarngodingid,
     tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     link: "https://dasarngodingid.vercel.app/",
     github: "https://github.com/ElloRabyndra/DasarNgoding",
@@ -103,7 +116,7 @@ const projects = [
     title: "Bank Sumsel Babel Digital Catalog",
     description:
       "A digital catalog web portal for banking products. Features admin panel, text editor, and authentication.",
-    image: "/katalog-bsb.png",
+    image: katalogBsb,
     tech: ["Next.js", "Supabase", "Tailwind CSS"],
     link: "https://bank-sumsel-babel-catalog.vercel.app/",
     github: "https://github.com/ElloRabyndra/Bank-Sumsel-Babel-Catalog",
@@ -114,7 +127,7 @@ const projects = [
     title: "GDGoC Unsri Management System",
     description:
       "A management system for GDGOC Unsri for member management, event tracking with committee roles, and a leaderboard system.",
-    image: "/gdgoc.png",
+    image: gdgoc,
     tech: ["Next.js", "ShadCn", "Firebase", "React Query"],
     link: "https://gdgoc-unsri-management-system.vercel.app/",
     github: "https://github.com/ElloRabyndra/gdgoc-unsri-management-system",
@@ -125,7 +138,7 @@ const projects = [
     title: "EcoSphere",
     description:
       "An interactive educational website utilizing gamification to encourage children take simple, consistent environmental actions.",
-    image: "/ecosphere.png",
+    image: ecosphere,
     tech: ["React", "ShadCn", "NodeJS", "MySQL"],
     link: "https://echosphere-cyan.vercel.app/",
     github: "https://github.com/ElloRabyndra/EcoSphere",
@@ -136,7 +149,7 @@ const projects = [
     title: "Thriftoria Mart",
     description:
       "Full-stack thrift marketplace with multi-role system, shop approval workflow, real-time cart & order tracking",
-    image: "/Thriftoria.png",
+    image: Thriftoria,
     tech: ["React", "ShadCn", "Go", "Fiber", "MySQL"],
     link: "https://thriftoria-team-green-v2.vercel.app/",
     github: "https://github.com/ElloRabyndra/Team_Green_Thriftoria",
@@ -147,7 +160,7 @@ const projects = [
     title: "Fasilkom Unsri",
     description:
       "A project to redesign the official website for the Faculty of Computer Science at Sriwijaya University.",
-    image: "/fasilkom.png",
+    image: fasilkom,
     tech: ["React", "Tailwind", "Go", "Fiber", "MySQL"],
     link: "https://fasilkom-universitas-sriwijaya.vercel.app/",
     github: "https://github.com/ElloRabyndra/Fasilkom-Universitas-Sriwijaya",
@@ -158,7 +171,7 @@ const projects = [
     title: "Tastico",
     description:
       "A modern, responsive restaurant website with an elegant user interface for browsing menus, placing orders, and managing user accounts.",
-    image: "/tastico.png",
+    image: tastico,
     tech: ["React", "Tailwind", "Go", "MySQL"],
     link: "https://tastico.vercel.app/",
     github: "https://github.com/ElloRabyndra/tastico",
@@ -169,7 +182,7 @@ const projects = [
     title: "Warehouse Dashboard",
     description:
       "An interactive and real-time web dashboard for monitoring warehouse temperature and humidity.",
-    image: "/warehouse-dashboard.png",
+    image: warehouseDashboard,
     tech: ["React", "Tailwind", "C++", "Wokwi"],
     link: "https://warehouse-dashboard-self.vercel.app/",
     github: "https://github.com/ElloRabyndra/Warehouse-Dashboard",
@@ -180,7 +193,7 @@ const projects = [
     title: "Marketplace Management",
     description:
       "A PHP-MySQL marketplace system with auth, role-based access, product CRUD, image upload, and responsive light/dark mode UI.",
-    image: "/MarketPlace.png",
+    image: MarketPlace,
     tech: ["PHP", "Jquery", "Tailwind", "MySQL"],
     link: "",
     github: "https://github.com/ElloRabyndra/MarketPlaceManagement",
@@ -191,7 +204,7 @@ const projects = [
   //   title: "MyNotes",
   //   description:
   //     "A responsive note-taking app with authentication, CRUD features, and pinning, built using Node.js and Tailwind CSS.",
-  //   image: "/MyNotes.png",
+  //   image: MyNotes,
   //   tech: ["Tailwind", "NodeJS", "Express", "EJS", "MySQL"],
   //   link: "https://ellorabyndra.github.io/MyNotes/",
   //   github: "https://github.com/ElloRabyndra/MyNotes-old",
@@ -202,7 +215,7 @@ const projects = [
   //   title: "MyOshi",
   //   description:
   //     "An interactive JKT48 member gallery with pagination and gacha system to discover your favorite member.",
-  //   image: "/MyOshi.png",
+  //   image: MyOshi,
   //   tech: ["React", "Tailwind"],
   //   link: "https://myoshi.vercel.app/",
   //   github: "https://github.com/ElloRabyndra/MyOshi",
@@ -213,7 +226,7 @@ const projects = [
   //   title: "Nim Validation",
   //   description:
   //     "A Flask-based NIM validator for Sriwijaya University, using regular grammar to check format compliance.",
-  //   image: "/NimValidation.png",
+  //   image: NimValidation,
   //   tech: ["Python", "Flask", "Tailwind", "Javascript"],
   //   link: "https://nim-validation.vercel.app/",
   //   github: "https://github.com/ElloRabyndra/Nim_Validation",
