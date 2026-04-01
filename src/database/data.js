@@ -7,6 +7,8 @@ import fasilkom from "../assets/fasilkom.png";
 import tastico from "../assets/tastico.png";
 import warehouseDashboard from "../assets/warehouseDashboard.png";
 import MarketPlace from "../assets/MarketPlace.png";
+import spotify from "../assets/spotify.png";
+import tudo from "../assets/tudo.jpg";
 import MyNotes from "../assets/MyNotes.png";
 import MyOshi from "../assets/MyOshi.png";
 import NimValidation from "../assets/NimValidation.png";
@@ -168,6 +170,28 @@ const projects = [
   {
     id: 7,
     category: "Website",
+    title: "Spotify Web Client Clone",
+    description:
+      "A pixel-perfect Spotify Web Player replica featuring dynamic color extraction, global audio state management, and a fully responsive interface.",
+    image: spotify,
+    tech: ["React", "TypeScript", "Tailwind CSS", "Zustand"],
+    link: "https://spotify-client-clone.vercel.app/",
+    github: "https://github.com/ElloRabyndra/spotify-client-clone",
+  },
+  {
+    id: 8,
+    category: "Mobile",
+    title: "TuDo",
+    description:
+      "A cross-platform task management app with smart subtask tracking, automated status updates, and deadline validation.",
+    image: tudo,
+    tech: ["React Native", "NativeWind", "Go", "SQLite"],
+    link: "",
+    github: "https://github.com/ElloRabyndra/TuDo",
+  },
+    {
+    id: 9,
+    category: "Website",
     title: "Tastico",
     description:
       "A modern, responsive restaurant website with an elegant user interface for browsing menus, placing orders, and managing user accounts.",
@@ -177,7 +201,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/tastico",
   },
   {
-    id: 8,
+    id: 10,
     category: "Website, IoT",
     title: "Warehouse Dashboard",
     description:
@@ -188,7 +212,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Warehouse-Dashboard",
   },
   {
-    id: 9,
+    id: 11,
     category: "Website",
     title: "Marketplace Management",
     description:
@@ -221,7 +245,7 @@ const projects = [
   //   github: "https://github.com/ElloRabyndra/MyOshi",
   // },
   // {
-  //   id: 10,
+  //   id: 11,
   //   category: "Website",
   //   title: "Nim Validation",
   //   description:
