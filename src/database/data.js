@@ -1,3 +1,5 @@
+import NodeJS from "../assets/NodeJS.png";
+import Express from "../assets/Express.png";
 import dasarngodingid from "../assets/dasarngodingid.png";
 import katalogBsb from "../assets/katalogBsb.png";
 import gdgoc from "../assets/gdgoc.png";
@@ -66,12 +68,12 @@ const techs = [
   {
     id: 9,
     name: "NodeJS",
-    image: "/NodeJS.png",
+    image: NodeJS,
   },
   {
     id: 10,
     name: "Express",
-    image: "/Express.png",
+    image: Express,
   },
   {
     id: 11,
