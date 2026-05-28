@@ -11,6 +11,7 @@ import warehouseDashboard from "../assets/warehouseDashboard.png";
 import MarketPlace from "../assets/MarketPlace.png";
 import spotify from "../assets/spotify.png";
 import tudo from "../assets/tudo.jpg";
+import expertSystem from "../assets/expertSystem.png";
 import MyNotes from "../assets/MyNotes.png";
 import MyOshi from "../assets/MyOshi.png";
 import NimValidation from "../assets/NimValidation.png";
@@ -172,6 +173,18 @@ const projects = [
   {
     id: 7,
     category: "Website",
+    title: "Digital Business Feasibility",
+    description:
+      "An expert system designed to analyze and evaluate business ideas to help entrepreneurs make data-driven feasibility decisions",
+    image: expertSystem,
+    tech: ["React", "Tailwind CSS"],
+    link: "https://digital-business-feasibility-expert.vercel.app/",
+    github:
+      "https://github.com/ElloRabyndra/digital-business-feasibility-expert-system",
+  },
+  {
+    id: 8,
+    category: "Website",
     title: "Spotify Web Client Clone",
     description:
       "A pixel-perfect Spotify Web Player replica featuring dynamic color extraction, global audio state management, and a fully responsive interface.",
@@ -181,7 +194,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/spotify-client-clone",
   },
   {
-    id: 8,
+    id: 9,
     category: "Mobile",
     title: "TuDo",
     description:
@@ -191,8 +204,8 @@ const projects = [
     link: "",
     github: "https://github.com/ElloRabyndra/TuDo",
   },
-    {
-    id: 9,
+  {
+    id: 10,
     category: "Website",
     title: "Tastico",
     description:
@@ -203,7 +216,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/tastico",
   },
   {
-    id: 10,
+    id: 11,
     category: "Website, IoT",
     title: "Warehouse Dashboard",
     description:
@@ -214,7 +227,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Warehouse-Dashboard",
   },
   {
-    id: 11,
+    id: 12,
     category: "Website",
     title: "Marketplace Management",
     description:
@@ -225,7 +238,7 @@ const projects = [
     github: "https://github.com/ElloRabyndra/MarketPlaceManagement",
   },
   // {
-  //   id: 10,
+  //   id: 13,
   //   category: "Website",
   //   title: "MyNotes",
   //   description:
@@ -236,7 +249,7 @@ const projects = [
   //   github: "https://github.com/ElloRabyndra/MyNotes-old",
   // },
   // {
-  //   id: 11,
+  //   id: 14,
   //   category: "Website",
   //   title: "MyOshi",
   //   description:
@@ -247,7 +260,7 @@ const projects = [
   //   github: "https://github.com/ElloRabyndra/MyOshi",
   // },
   // {
-  //   id: 11,
+  //   id: 15,
   //   category: "Website",
   //   title: "Nim Validation",
   //   description:
