@@ -12,6 +12,7 @@ import MarketPlace from "../assets/MarketPlace.png";
 import spotify from "../assets/spotify.png";
 import tudo from "../assets/tudo.jpg";
 import expertSystem from "../assets/expertSystem.png";
+import igrs from "../assets/igrs.png";
 import MyNotes from "../assets/MyNotes.png";
 import MyOshi from "../assets/MyOshi.png";
 import NimValidation from "../assets/NimValidation.png";
@@ -105,7 +106,16 @@ const techs = [
 // Projects
 const projects = [
   {
-    id: 1,
+    category: "Website",
+    title: "IGRS Redesign",
+    description:
+      "A full-stack redesign of Indonesia Game Rating System featuring game databases and rating management.",
+    image: igrs,
+    tech: ["React", "Tailwind CSS", "Express", "Prisma"],
+    link: "https://igrs-redesign.vercel.app",
+    github: "https://github.com/ElloRabyndra/igrs-redesign",
+  },
+  {
     category: "Website",
     title: "DasarNgoding",
     description:
@@ -116,7 +126,6 @@ const projects = [
     github: "https://github.com/ElloRabyndra/DasarNgoding",
   },
   {
-    id: 2,
     category: "Website",
     title: "Bank Sumsel Babel Digital Catalog",
     description:
@@ -127,7 +136,6 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Bank-Sumsel-Babel-Catalog",
   },
   {
-    id: 3,
     category: "Website",
     title: "GDGoC Unsri Management System",
     description:
@@ -138,7 +146,6 @@ const projects = [
     github: "https://github.com/ElloRabyndra/gdgoc-unsri-management-system",
   },
   {
-    id: 4,
     category: "Website",
     title: "EcoSphere",
     description:
@@ -149,18 +156,6 @@ const projects = [
     github: "https://github.com/ElloRabyndra/EcoSphere",
   },
   {
-    id: 5,
-    category: "Website",
-    title: "Thriftoria Mart",
-    description:
-      "Full-stack thrift marketplace with multi-role system, shop approval workflow, real-time cart & order tracking",
-    image: Thriftoria,
-    tech: ["React", "ShadCn", "Go", "Fiber", "MySQL"],
-    link: "https://thriftoria-team-green-v2.vercel.app/",
-    github: "https://github.com/ElloRabyndra/Team_Green_Thriftoria",
-  },
-  {
-    id: 6,
     category: "Website",
     title: "Fasilkom Unsri",
     description:
@@ -171,7 +166,16 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Fasilkom-Universitas-Sriwijaya",
   },
   {
-    id: 7,
+    category: "Website",
+    title: "Thriftoria Mart",
+    description:
+      "Full-stack thrift marketplace with multi-role system, shop approval workflow, real-time cart & order tracking",
+    image: Thriftoria,
+    tech: ["React", "ShadCn", "Go", "Fiber", "MySQL"],
+    link: "https://thriftoria-team-green-v2.vercel.app/",
+    github: "https://github.com/ElloRabyndra/Team_Green_Thriftoria",
+  },
+  {
     category: "Website",
     title: "Digital Business Feasibility",
     description:
@@ -183,7 +187,6 @@ const projects = [
       "https://github.com/ElloRabyndra/digital-business-feasibility-expert-system",
   },
   {
-    id: 8,
     category: "Website",
     title: "Spotify Web Client Clone",
     description:
@@ -194,7 +197,6 @@ const projects = [
     github: "https://github.com/ElloRabyndra/spotify-client-clone",
   },
   {
-    id: 9,
     category: "Mobile",
     title: "TuDo",
     description:
@@ -205,18 +207,6 @@ const projects = [
     github: "https://github.com/ElloRabyndra/TuDo",
   },
   {
-    id: 10,
-    category: "Website",
-    title: "Tastico",
-    description:
-      "A modern, responsive restaurant website with an elegant user interface for browsing menus, placing orders, and managing user accounts.",
-    image: tastico,
-    tech: ["React", "Tailwind", "Go", "MySQL"],
-    link: "https://tastico.vercel.app/",
-    github: "https://github.com/ElloRabyndra/tastico",
-  },
-  {
-    id: 11,
     category: "Website, IoT",
     title: "Warehouse Dashboard",
     description:
@@ -227,7 +217,6 @@ const projects = [
     github: "https://github.com/ElloRabyndra/Warehouse-Dashboard",
   },
   {
-    id: 12,
     category: "Website",
     title: "Marketplace Management",
     description:
@@ -238,7 +227,16 @@ const projects = [
     github: "https://github.com/ElloRabyndra/MarketPlaceManagement",
   },
   // {
-  //   id: 13,
+  //   category: "Website",
+  //   title: "Tastico",
+  //   description:
+  //     "A modern, responsive restaurant website with an elegant user interface for browsing menus, placing orders, and managing user accounts.",
+  //   image: tastico,
+  //   tech: ["React", "Tailwind", "Go", "MySQL"],
+  //   link: "https://tastico.vercel.app/",
+  //   github: "https://github.com/ElloRabyndra/tastico",
+  // },
+  // {
   //   category: "Website",
   //   title: "MyNotes",
   //   description:
@@ -249,7 +247,6 @@ const projects = [
   //   github: "https://github.com/ElloRabyndra/MyNotes-old",
   // },
   // {
-  //   id: 14,
   //   category: "Website",
   //   title: "MyOshi",
   //   description:
@@ -260,7 +257,6 @@ const projects = [
   //   github: "https://github.com/ElloRabyndra/MyOshi",
   // },
   // {
-  //   id: 15,
   //   category: "Website",
   //   title: "Nim Validation",
   //   description:

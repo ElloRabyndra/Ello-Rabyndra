@@ -35,8 +35,8 @@ const ProjectContent = () => {
         delay={0.4}
       >
         <div className="mt-5 lg:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 place-items-center">
-          {displayedProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+          {displayedProjects.map((project, index) => (
+            <ProjectCard key={index} project={project}  />
           ))}
         </div>
       </AnimatedContent>
